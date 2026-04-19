@@ -23,14 +23,17 @@
 
 ```bash
 pip install fastapi uvicorn openai python-dotenv
+```
 
 创建.env文件：
 ```bash
 SILICONFLOW_API_KEY=你的key
+```
 
 启动后端：
 ```bash
 uvicorn talk_fastapi_ver2_with_ai_front:app --reload
+```
 
 然后直接用浏览器打开 front2.html。
 
